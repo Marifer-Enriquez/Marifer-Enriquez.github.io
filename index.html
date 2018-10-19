@@ -1,59 +1,814 @@
-<!doctype html>
-<html lang="en-us">
+<!DOCTYPE html>
+<html lang="zxx">
+	<head>
+        <!-- META DATA -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<head>
-  <meta charset="UTF-8">
-  <title>About | Marifer EC</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-</head>
+        <!-- TITLE OF SITE -->
+        <title>FERNANDA ENRIQUEZ</title>
 
-<body>
+        <!-- favicon -->
+        <link id="favicon" rel="icon" type="image/png" href="assets/images/mficon.ico">
 
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Marifer EC</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </div>
-  </header>
+        <!-- Google Fonts-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700">
+        
+        <!-- Bootstrap css -->
+		<link rel="stylesheet" href="assets/css/bootstrap.css">
 
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>About Me</h1>
+        <!-- splitlayout.css -->
+		<link rel="stylesheet" href="assets/css/splitlayout.css">
 
-      <img src="assets/images/mfparis.jpg" class="auth-image" alt="Marifer">
 
-      <p> <strong> Have you ever thought you could be a great web developer? </strong></p>
-      <p>My name is Ma Fernanda and this is my story: I was born in a big city called Guadalajara. When I turned 18 I decided to go out and see the world, so I landed up in Switzerland. After a year, I came back to México to live in Puebla and study Finance Administration. Since I have always been eager for new experiences, I went to live to Melbourne in Australia. </p>
-      <p>After I graduated, I started working at Santander in Mid Corp Banking. I am the Director for Treasury Instruments, where I am mainly focused in hedging instruments for foreing exchange and interest rates. Whilst working at the Bank I studied a Masters Degree in Banking and Finance at <i>Instituto de Estudios Bursátiles de Madrid</i>. After finishing and climbing up at my job I thought, why not give my career a boost and complement it with something different? And that is what got me into coding. </p>
+        <link rel="stylesheet" href="assets/css/animations.css">
 
-      <p><b>WHAT MOVES ME</b></p>
-      <UL>
-      <li>I love to learn new and different abilities</li>
-      <li>Keep moving forward with new challenges</li>
-      <li>Family: the beginning and center of life</li>
-      </UL>
-      <BR>
-      <p><b>EDUCATION </b></p>
-      <ul>
-      <li>Degree in Finance Administration at <i>Tecnológico de Monterrey</i></li>   
-      <li>Masters Degree in Banking and Finance at <i>Instituto de Estudios Bursátiles de Madrid</i></li>
-      <li>Diplomat in Hedging Structures at <i>Tecnológico de Monterrey</i></li>
-      </ul>
-    </section>
+        <!-- responsiveslides.css -->
+        <link rel="stylesheet" href="assets/css/responsiveslides.css">
 
-  </div>
+        <!-- slick css -->
+        <link rel="stylesheet" href="assets/css/slick.css">
+        <link rel="stylesheet" href="assets/css/slick-theme.css">
 
-  <footer>
-    <div class="container">
-        "Life is like riding a bicycle. To keep your balance, you must keep moving." <i>Albert Einstein</i>      
-                  ***Copyright &copy; 
-    </div>
-  </footer>
-</body>
+        <!-- magnific-popup.css -->
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
 
+        <!-- pogo-slider.css -->
+        <link rel="stylesheet" href="assets/css/pogo-slider.css">
+
+        <!-- font-awesome.min.css -->
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="assets/css/pe-icon-7-stroke.min.css">
+
+        <!-- Main style css -->
+		<link rel="stylesheet" href="assets/css/style.css">
+
+        <!-- Responsive css -->
+        <link rel="stylesheet" href="assets/css/responsive.css">
+
+        <!-- Yellow Color -->
+       <link rel="stylesheet" href="assets/css/color-yellow.css"> 
+
+        <!-- Purple Color -->
+        <!-- <link rel="stylesheet" href="assets/css/color-purple.css"> -->
+
+        <!-- Green Color -->
+        <!-- <link rel="stylesheet" href="assets/css/color-green.css"> -->
+
+        <!-- Red Color -->
+        <!-- <link rel="stylesheet" href="assets/css/color-red.css"> -->
+
+        <!-- Blue Color -->
+        <!-- <link rel="stylesheet" href="assets/css/color-blue.css"> -->
+
+
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+	</head>
+	<body>
+
+        <!--Start Preloader-->
+        <div class="page-loader startLoad">
+          <div class="loader startLoad"></div>
+        </div>
+        <!--End Preloader-->
+
+
+		<div id="splitlayout" class="splitlayout close-right">
+			<div class="intro">
+
+
+                <!--Start Home-->
+                <div class="home_type full-height">
+                    <div class="side side-left container">
+                        <div class="overlayer pogoSlider">
+                            <div class="pogoSlider-slide" data-transition="expandReveal" data-duration="1000"  style="background-image: url(assets/images/space.jpg);"></div>
+                            <div class="pogoSlider-slide" data-transition="expandReveal" data-duration="1000"  style="background-image: url(assets/images/space2.jpg);"></div>
+                            <div class="pogoSlider-slide" data-transition="expandReveal" data-duration="1000"  style="background-image: url(assets/images/space3.jpg);"></div>
+                            <div class="display-table">
+                                <div class="display-table-cell">
+                                    <h1 class="fit__text">I AM <span id="typed"></span></h1>
+                                    <div id="typed-strings">
+                                        <span>FERNANDA ENRIQUEZ</span>
+                                        <span>A HEDGING SPECIALIST</span>
+                                        <span>A DEVELOPER</span>
+                                    </div>
+
+                                    <div class="more_info">
+
+                                        <div class="item">
+                                            <span class="info-title">Age : </span>
+                                            <span class="info-body">31 Years</span>
+                                        </div>
+
+                                        <div class="item">
+                                            <span class="info-title">Date of birth : </span>
+                                            <span class="info-body">19-01-1987</span>
+                                        </div>
+
+                                        <div class="item">
+                                            <span class="info-title">Address : </span>
+                                            <span class="info-body">Santa Fe, CDMX</span>
+                                        </div>
+
+                                        <div class="item">
+                                            <span class="info-title">E-mail : </span>
+                                            <span class="info-body">marifer.enriquezc@gmail.com</span>
+                                        </div>
+
+                                        <div class="item">
+                                            <span class="info-title">Phone : </span>
+                                            <span class="info-body">+52 2222 624 800</span>
+                                        </div>
+
+
+
+                                    </div><!--.more_info-->
+                                </div><!--.display-table-cell-->
+                            </div><!--.display-table-->
+
+                        </div><!--.overlayer-->
+                    </div><!--.side-->
+                </div><!--.home_type-->
+                <!--End Home-->
+
+
+                <!--Start Menu-->
+                <div class="mob-menu-overlay"></div>
+                <div class="mob-menu">
+                    <div class="mob-menu-content">
+                        <div class="float-left">
+                            <p class="menu-title">María Fernanda Enríquez Calva</p>
+                        </div>
+                        <div class="float-right">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+				<div class="side side-right">
+					<div class="intro-content">
+						<div class="profile">
+                            <img src="assets/images/profilemf.jpg" alt="profile">
+                        </div>
+						<h1>
+                            <span>FERNANDA ENRIQUEZ</span>
+                        </h1>
+						<div class="menu">
+
+                            <!--Social links-->
+                            <div class="social-icons">
+                                <a href="https://web.facebook.com/marifer.enriquez" target = "_blank">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/mar%C3%ADa-fernanda-enriquez-calva-64b3b024/" target = "_blank">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                                <a href="https://www.instagram.com/marifer.enriquez/" target = "_blank">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+ 
+                            </div>
+
+                            <!--Menu Items-->
+							<ul class="list-unstyled menu_list" id="menu">
+								<li>
+                                    <a href="#home" class="active_item">home</a>
+                                </li>
+								<li>
+                                    <a href="#about">about me</a>
+                                </li>
+                                <li>
+                                    <a href="#resume">my resume</a>
+                                </li>
+                                <li>
+                                    <a href="#portfolio">portfolio</a>
+                                </li>
+								<li>
+                                    <a href="#contact">contact</a>
+                                </li>
+							</ul>
+
+						</div><!--.menu-->
+					</div><!--.intro-content-->
+				</div><!--.side-->
+                <!--End Menu-->
+
+
+			</div><!-- /intro -->
+			<div class="page page-right full-height">
+				<div id="pt-main" class="pt-perspective page-inner">
+
+
+                    <!--Start About Section-->
+                    <section class="about padding-bottom-90 pt-page pt-page-current" id="about">
+                        <div class="content">
+                            <img class="center-block" src="assets/images/top.JPG" alt="">
+                            <div class="container">
+                                <div class="more-about-me">
+                                    <p class="margin-top-30">I was born in a big city called Guadalajara. When I turned 18 I decided to go out and see the world, so I landed up in Switzerland and stayed there for a year learning french. After that, I came back to México to live in Puebla and studied Finance Administration at Tecnológico de Monterrey. Whilst studying, I went to live to Melbourne in Australia for a 6 month exchange program.</p>
+                                    <p class="margin-bottom-0"> After I graduated, I started working at Santander in Mid Corp Banking. I am the Director of Sales for Treasury Instruments, where I focus on creating hedging strategies for companies with risk exposure on FX and interest rates.  </p>
+                                    <p class="margin-bottom-0">I believe that change is the only constant in life, that is why I am always trying to learn new things. Therefore, I am working on becoming a web developer and complement my knowledge on Finance and Banking with Coding and Technology.</p>
+                                </div>
+
+                                <!-- Skills -->
+                                <div class="skills row margin-top-45">
+                                    <div class="col-sm-6 item">
+                                        <h3 class="subtitle">My Skills
+                                            <svg width="66px" height="8px" viewBox="0 0 66 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <g class="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-147.000000, -464.000000)" opacity="0.2" stroke-linecap="round" stroke-linejoin="round">
+                                                    <g class="Header" stroke="#FFFFFF" stroke-width="3">
+                                                        <path d="M149,466 C152.87377,466 152.87377,470 156.747541,470 C160.621311,470 160.621311,466 164.493293,466 C168.367064,466 168.367064,470 172.240834,470 C176.112816,470 176.112816,466 179.984798,466 C183.858569,466 183.858569,470 187.730551,470 C191.607898,470 191.607898,466 195.483457,466 C199.362593,466 199.362593,470 203.241728,470 C207.120864,470 207.120864,466 211,466"></path>
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </h3>
+                                    
+                                        <!-- Skill 1 -->
+                                        <div class="skill">
+                                            <h5 class="name">Hedging Strategies</h5>
+                                            <div>
+                                                <span class="true"></span>
+                                                <span class="true"></span>
+                                                <span class="true"></span>
+                                                <span class="true"></span>
+                                                <span class="false"></span>
+                                            </div>
+                                            <span>advanced</span>
+                                        </div>
+                                        
+                                        <!-- Skill 2 -->
+                                        <div class="skill">
+                                            <h5 class="name">Team Leader</h5>
+                                            <div>
+                                                <span class="true"></span>
+                                                <span class="true"></span>
+                                                <span class="true"></span>
+                                                <span class="true"></span>
+                                                <span class="false"></span>
+                                            </div>
+                                            <span>advanced</span>
+                                        </div>
+
+                                        <!-- Skill 3 -->
+                                        <div class="skill">
+                                            <h5 class="name">Web Development</h5>
+                                            <div>
+                                                <span class="true"></span>
+                                                <span class="true"></span>
+                                                <span class="false"></span>
+                                                <span class="false"></span>
+                                                <span class="false"></span>
+                                            </div>
+                                            <span>Beginner</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-6 item mob-margin-top-45">
+                                        <h3 class="subtitle">Languages
+                                            <svg width="66px" height="8px" viewBox="0 0 66 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <g class="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-147.000000, -464.000000)" opacity="0.2" stroke-linecap="round" stroke-linejoin="round">
+                                                    <g class="Header" stroke="#FFFFFF" stroke-width="3">
+                                                        <path d="M149,466 C152.87377,466 152.87377,470 156.747541,470 C160.621311,470 160.621311,466 164.493293,466 C168.367064,466 168.367064,470 172.240834,470 C176.112816,470 176.112816,466 179.984798,466 C183.858569,466 183.858569,470 187.730551,470 C191.607898,470 191.607898,466 195.483457,466 C199.362593,466 199.362593,470 203.241728,470 C207.120864,470 207.120864,466 211,466"></path>
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </h3>
+
+                                        <!-- Lang 1 -->
+                                        <div class="skill">
+                                            <h5 class="name">Spanish</h5>
+                                            <div>
+                                                <span class="true"></span>
+                                                <span class="true"></span>
+                                                <span class="true"></span>
+                                                <span class="true"></span>
+                                                <span class="true"></span>
+                                            </div>
+                                            <span>native</span>
+                                        </div>
+
+                                        <!-- Lang 2 -->
+                                        <div class="skill">
+                                            <h5 class="name">English</h5>
+                                            <div>
+                                                <span class="true"></span>
+                                                <span class="true"></span>
+                                                <span class="true"></span>
+                                                <span class="true"></span>
+                                                <span class="true"></span>
+                                            </div>
+                                            <span>advanced</span>
+                                        </div>
+
+                                        <!-- Lang 3 -->
+                                        <div class="skill">
+                                            <h5 class="name">French</h5>
+                                            <div>
+                                                <span class="true"></span>
+                                                <span class="true"></span>
+                                                <span class="true"></span>
+                                                <span class="false"></span>
+                                                <span class="false"></span>
+                                            </div>
+                                            <span>Intermediate</span>
+                                        </div>
+
+                                    </div>
+                                </div><!--.skills-->
+
+
+
+ 
+                                <!--Fun Facts-->
+                                <div class="fun-facts margin-top-45">
+                                    <h3 class="subtitle">Fun Facts
+                                        <svg width="66px" height="8px" viewBox="0 0 66 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <g class="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-147.000000, -464.000000)" opacity="0.2" stroke-linecap="round" stroke-linejoin="round">
+                                                <g class="Header" stroke="#FFFFFF" stroke-width="3">
+                                                    <path d="M149,466 C152.87377,466 152.87377,470 156.747541,470 C160.621311,470 160.621311,466 164.493293,466 C168.367064,466 168.367064,470 172.240834,470 C176.112816,470 176.112816,466 179.984798,466 C183.858569,466 183.858569,470 187.730551,470 C191.607898,470 191.607898,466 195.483457,466 C199.362593,466 199.362593,470 203.241728,470 C207.120864,470 207.120864,466 211,466"></path>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </h3>
+                                    <div class="row">
+                                        <div class="col-sm-3 col-xs-6">
+                                            <div class="item">
+                                                <span class="pe-7s-like"></span>
+                                                <h4></h4>
+                                                <h5>DOG LOVER!</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3 col-xs-6">
+                                            <div class="item">
+                                                <span class="pe-7s-plane"></span>
+                                                <h4></h4>
+                                                <h5>Fan of traveling!</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3 col-xs-6 mob-margin-top-30">
+                                            <div class="item">
+                                                <span class="pe-7s-users"></span>
+                                                <h4></h4>
+                                                <h5>Happily Married!</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3 col-xs-6 mob-margin-top-30">
+                                            <div class="item">
+                                                <span class="pe-7s-bicycle"></span>
+                                                <h4></h4>
+                                                <h5>Training for a triathlon</h5>
+                                            </div>
+                                        </div>
+                                    </div><!--.row-->
+                                </div><!--.fun-facts-->
+
+                            </div><!--.container-->
+                        </div><!--.content-->
+                    </section>
+                    <!--End About Section-->
+
+
+                    <!--Start Resume Section-->
+                    <section class="resume padding-bottom-90 pt-page" id="resume">
+                        <div class="content">
+                            <div class="container">
+                                <div class="sec_title">
+                                    <h2>Resume</h2>
+                                </div>
+                                <div class="row">
+
+                                    <!--Education-->
+                                    <div class="col-md-6">
+                                        <h3 class="subtitle">Education
+                                            <svg width="66px" height="8px" viewBox="0 0 66 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <g class="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-147.000000, -464.000000)" opacity="0.2" stroke-linecap="round" stroke-linejoin="round">
+                                                        <g class="Header" stroke="#FFFFFF" stroke-width="3">
+                                                            <path d="M149,466 C152.87377,466 152.87377,470 156.747541,470 C160.621311,470 160.621311,466 164.493293,466 C168.367064,466 168.367064,470 172.240834,470 C176.112816,470 176.112816,466 179.984798,466 C183.858569,466 183.858569,470 187.730551,470 C191.607898,470 191.607898,466 195.483457,466 C199.362593,466 199.362593,470 203.241728,470 C207.120864,470 207.120864,466 211,466"></path>
+                                                        </g>
+                                                    </g>
+                                            </svg>
+                                        </h3>
+
+                                        <div class="item">
+                                            <div class="date">
+                                                <span>2018 - 2019</span>
+                                            </div>
+                                            <div class="content">
+                                                <h4>Coding Bootcamp Diploma</h4>
+                                                <p>Tecnológico de Monterrey</p>
+                                                <p>Front-end full stack web developer</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="item">
+                                            <div class="date">
+                                                <span>2016 - 2017</span>
+                                            </div>
+                                            <div class="content">
+                                                <h4>Financial Derivatives Diploma</h4>
+                                                <p>Tecnológico de Monterrey</p>
+                                                <p>Banking and Finance</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="item">
+                                            <div class="date">
+                                                <span>2012 - 2014</span>
+                                            </div>
+                                            <div class="content">
+                                                <h4>Master Degree in Banking and Finance</h4>
+                                                <p>Instituto de Estudios Bursátiles de Madrid, España</p>
+                                                <p>Banking and Finance</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="item">
+                                            <div class="date">
+                                                <span>2006 - 2011</span>
+                                            </div>
+                                            <div class="content">
+                                                <h4>Bachelor Degree in Finance Administration</h4>
+                                                <p>Tecnológico de Monterrey</p>
+                                                <p>Student's Leadership Diploma</p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="date">
+                                                <span>2010 - 2011</span>
+                                            </div>
+                                            <div class="content">
+                                                <h4>Bachelor Degree in Finance Administration</h4>
+                                                <p>Deakin University, Melbourne, Australia</p>
+                                                <p>Exchange Program</p>
+                                            </div>
+                                        </div>
+
+                                    </div><!--.col-md-6-->
+
+                                    <!--Experience-->
+                                    <div class="col-md-6 mobSmart-margin-top-40">
+                                        <h3 class="subtitle">Experience
+                                            <svg width="66px" height="8px" viewBox="0 0 66 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <g class="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-147.000000, -464.000000)" opacity="0.2" stroke-linecap="round" stroke-linejoin="round">
+                                                        <g class="Header" stroke="#FFFFFF" stroke-width="3">
+                                                            <path d="M149,466 C152.87377,466 152.87377,470 156.747541,470 C160.621311,470 160.621311,466 164.493293,466 C168.367064,466 168.367064,470 172.240834,470 C176.112816,470 176.112816,466 179.984798,466 C183.858569,466 183.858569,470 187.730551,470 C191.607898,470 191.607898,466 195.483457,466 C199.362593,466 199.362593,470 203.241728,470 C207.120864,470 207.120864,466 211,466"></path>
+                                                        </g>
+                                                    </g>
+                                            </svg>
+                                        </h3>
+
+                                        <div class="item">
+                                            <div class="date">
+                                                <span>2017 - Present</span>
+                                            </div>
+                                            <div class="content">
+                                                <h4>Director of Sales for Derivatives</h4>
+                                                <h4>Banco Santander México</h4>
+                                               <p>Development of hedging strategies to minimize the risk exposure of Mid Corp Companies on Foreing Exchange and Interest Rates.</p>
+                                               <p>Leading a team of 4 people. Achievement of results at 120% in 2018. Top 3 in country ranking. </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="item">
+                                            <div class="date">
+                                                <span>2015 - 2017</span>
+                                            </div>
+                                            <div class="content">
+                                                <h4>Deputy Director of FX VIP Mid Corp Segment</h4>
+                                                <h4>Banco Santander México</h4>
+                                                <p>Specialized on FX markets attending the top 20 clients in Mid Corp Companies Segment.</p>
+                                                <p>The main objetive was to increase operations on Spot, Forwards, Options and Structures on FX. Acomplishment of 150%.</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="item">
+                                            <div class="date">
+                                                <span>2013 - 2015</span>
+                                            </div>
+                                            <div class="content">
+                                                <h4>Investment Adviser, Exchange and Derivatives</h4>
+                                                <h4>Banco Santander México</h4>
+                                                <p>Investment options to minimize risk and increase profitability both for clients and Bank. FX spot operations and basic derivatives structures. </p>
+                                                <p>Top 5 in the 2014 country ranking</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="item">
+                                            <div class="date">
+                                                <span>2012 - 2013</span>
+                                            </div>
+                                            <div class="content">
+                                                <h4>Junior Account Executive</h4>
+                                                <p>Building customer loyalty through banking instruments and follow up on credit instrumentation.</p>
+                                            </div>
+                                        </div>
+
+                                    </div><!--.col-md-6-->
+                                </div><!--.row-->
+                            </div><!--.container-->
+                        </div><!--.content-->
+                    </section>
+                    <!--End Resume Section-->
+
+
+      
+
+                    <!--Start Portfolio Section-->
+                    <section class="portfolio_sec padding-bottom-90 pt-page" id="portfolio">
+                        <div class="content">
+                            <div class="container">
+                                <div class="sec_title">
+                                    <h2>Portfolio</h2>
+                                </div>
+                                <ul class="list-unstyled ul-filter">
+                                    <li data-filter="*" class="active_filter">Coding</li>
+
+                                </ul>
+
+                                <div class="row grid">
+
+                                    <!--project 1 (Project popup)-->
+                                    <div class="col-xs-12 col-sm-6 item grid-sizer design">
+                                        <div class="project_content">
+                                            <div class="my_img">
+                                                <img src="assets/images/portfolio/project1.jpg" alt='Whats for dinner? '>
+                                            </div>
+                                            <div class="info">
+                                                <div class="display-table">
+                                                    <div class="display-table-cell">
+                                                        <a class="popup-with-zoom-anim" href="#slider_popup">
+                                                            <h3>What's for dinner?</h3>
+                                                            <p>Coding</p>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--Project Details-->
+                                    <div id="slider_popup" class="zoom-anim-dialog mfp-hide">
+                                        <div class="display-table">
+                                            <div class="display-table-cell">
+                                                <div class="row">
+                                                    <div class="col-sm-6">
+
+                                                        <!--Start slider-->
+                                                        <div class="project__slider">
+                                                            <ul class="project-slider">
+
+                                                                <!-- image 1 -->
+                                                                <li>
+                                                                    <img src="assets/images/portfolio/project1.jpg" alt="What's for dinner">
+                                                                </li>
+
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <h3>What's for dinner?</h3>
+                                                        <ul class="list-unstyled project_info">
+                                                            <li><span>Client</span> : Study Project</li>
+                                                            <li><span>Date</span> : October, 2018</li>
+                                                            <li><span>Skills</span> : HTML, JS, CSS</li>
+                                                        </ul>
+                                                        <p>
+                                                            Have you ever been hungry, looked at the fridge and saw the ingredients but you don’t know what to cook? Well we have the solution for you. With What’s for dinner? You just add the ingredients you want and we’ll look for the perfect recipe for you to cook! 
+                                                        </p>
+                                                        <a href="https://marifer-enriquez.github.io/Recipes-Project/" class="demo" target="_blank">Visit website</a>
+                                                        <a href="https://github.com/Marifer-Enriquez/Recipes-Project" class="demo" target="_blank">Github Repository</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!--project 2 (Project popup)-->
+                                    <div class="col-xs-12 col-sm-6 item grid-sizer design">
+                                        <div class="project_content">
+                                            <div class="my_img">
+                                                <img src="assets/images/portfolio/traintable.jpg" alt='Train Timetable'>
+                                            </div>
+                                            <div class="info">
+                                                <div class="display-table">
+                                                    <div class="display-table-cell">
+                                                        <a class="popup-with-zoom-anim" href="#slider_popup2">
+                                                            <h3>Train Timetable</h3>
+                                                            <p>Coding</p>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--Project Details-->
+                                    <div id="slider_popup2" class="zoom-anim-dialog mfp-hide">
+                                        <div class="display-table">
+                                            <div class="display-table-cell">
+                                                <div class="row">
+                                                    <div class="col-sm-6">
+
+                                                        <!--Start slider-->
+                                                        <div class="project__slider">
+                                                            <ul class="project-slider">
+
+                                                                <!-- image 1 -->
+                                                                <li>
+                                                                    <img src="assets/images/portfolio/traintable.jpg" alt="Train Timetable">
+                                                                </li>
+
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <h3>Train Timetable</h3>
+                                                        <ul class="list-unstyled project_info">
+                                                            <li><span>Client</span> : Study Project</li>
+                                                            <li><span>Date</span> : September, 2018</li>
+                                                            <li><span>Skills</span> : HTML, JS, CSS</li>
+                                                        </ul>
+                                                        <p>
+                                                            Do you want to keep track on when the next train or bus is arriving? In here you can add as many as you want and you will know how long it takes for it to arrive. 
+                                                        </p>
+                                                        <a href="https://marifer-enriquez.github.io/Traintable/" class="demo" target="_blank">Visit website</a>
+                                                        <a href="https://github.com/Marifer-Enriquez/Traintable" class="demo" target="_blank">Github Repository</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+ 
+
+                                    <!--project 3 (Project popup)-->
+                                    <div class="col-xs-12 col-sm-6 item grid-sizer design">
+                                        <div class="project_content">
+                                            <div class="my_img">
+                                                <img src="assets/images/portfolio/giphy.jpg" alt='Giftastic!'>
+                                            </div>
+                                            <div class="info">
+                                                <div class="display-table">
+                                                    <div class="display-table-cell">
+                                                        <a class="popup-with-zoom-anim" href="#slider_popup3">
+                                                            <h3>Giftastic!</h3>
+                                                            <p>Coding</p>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--Project Details-->
+                                    <div id="slider_popup3" class="zoom-anim-dialog mfp-hide">
+                                        <div class="display-table">
+                                            <div class="display-table-cell">
+                                                <div class="row">
+                                                    <div class="col-sm-6">
+
+                                                        <!--Start slider-->
+                                                        <div class="project__slider">
+                                                            <ul class="project-slider">
+
+                                                                <!-- image 1 -->
+                                                                <li>
+                                                                    <img src="assets/images/portfolio/giphy.jpg" alt="Giftastic!" height="100px">
+                                                                </li>
+
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <h3>Giftastic!</h3>
+                                                        <ul class="list-unstyled project_info">
+                                                            <li><span>Client</span> : Study Project</li>
+                                                            <li><span>Date</span> : September, 2018</li>
+                                                            <li><span>Skills</span> : HTML, JS, CSS</li>
+                                                        </ul>
+                                                        <p>
+                                                            Would you like to find gifs of your favourite artists? Here you will find them all! 
+                                                        </p>
+                                                        <a href="https://marifer-enriquez.github.io/Giftastic/" class="demo" target="_blank">Visit website</a>
+                                                        <a href="https://github.com/Marifer-Enriquez/Giftastic" class="demo" target="_blank">Github Repository</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>     
+                    </section>
+                    <!--Start Contact Section-->
+                    <section class="contact padding-bottom-90 pt-page" id="contact">
+                        <div class="content">
+                            <div class="container">
+                                <div class="sec_title">
+                                    <h2>Contact Me</h2>
+                                </div>
+                                
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <h3 class="subtitle">Get in Touch
+                                            <svg width="66px" height="8px" viewBox="0 0 66 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <g class="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-147.000000, -464.000000)" opacity="0.2" stroke-linecap="round" stroke-linejoin="round">
+                                                        <g class="Header" stroke="#FFFFFF" stroke-width="3">
+                                                            <path d="M149,466 C152.87377,466 152.87377,470 156.747541,470 C160.621311,470 160.621311,466 164.493293,466 C168.367064,466 168.367064,470 172.240834,470 C176.112816,470 176.112816,466 179.984798,466 C183.858569,466 183.858569,470 187.730551,470 C191.607898,470 191.607898,466 195.483457,466 C199.362593,466 199.362593,470 203.241728,470 C207.120864,470 207.120864,466 211,466"></path>
+                                                        </g>
+                                                    </g>
+                                            </svg>
+                                        </h3>
+                                         <div class="info">
+
+                                            <div class="item">
+                                                <span class="pe-7s-map-marker pe-3x pe-va icon"></span> 
+                                                <div>
+                                                    <span>Find Me</span>
+                                                    <p>Santa Fe, CDMX</p>
+                                                    <p>Puebla, Puebla</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="item">
+                                                <span class="pe-7s-mail pe-3x pe-va icon"></span>
+                                                <div>
+                                                    <span>Mail Me</span>
+                                                    <p><a href="mailto:marifer.enriquezc@gmail.com">marifer.enriquezc@gmail.com</a></p>
+                                                </div>
+                                            </div>
+
+                                            <div class="item">
+                                                <span class="pe-7s-call pe-3x pe-va icon"></span>
+                                                <div>
+                                                    <span>Call Me</span>
+                                                    <p>+52 2222 624 800</p>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div><!--.container-->    
+                        </div><!--.content-->    
+                    </section>
+                    <!--End Contact Section-->
+
+
+				</div><!--.page-inner-->
+			</div><!--.page-right-->
+		</div><!--.splitlayout-->
+
+
+        <!--jquery.min.js-->
+		<script src="assets/js/jquery.min.js"></script>
+
+        <!--jquery-migrate.js-->
+        <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+
+        <!--jquery.pogo-slider.js-->
+        <script src="assets/js/jquery.pogo-slider.js"></script>
+
+        <!--jquery.matchHeight-min.js-->
+        <script src="assets/js/jquery.matchHeight-min.js"></script>
+
+        <!--jquery.alterclass.js-->
+		<script src="assets/js/jquery.alterclass.js"></script>
+
+        <!--bootstrap.min.js-->
+        <script src="assets/js/bootstrap.min.js"></script>
+
+        <!--modernizr.custom.js-->
+        <script src="assets/js/modernizr.custom.js"></script>
+
+        <!--typed.min.js-->
+        <script src="assets/js/typed.min.js"></script>
+
+        <!--responsiveslides.min.js-->
+        <script src="assets/js/responsiveslides.min.js"></script>
+
+        <!--jquery.fittext.js-->
+        <script src="assets/js/jquery.fittext.js"></script>
+
+        <!--isotope.pkgd.min.js-->
+        <script src="assets/js/isotope.pkgd.min.js"></script>
+
+        <!--slick.js-->
+        <script src="assets/js/slick.js"></script>
+
+        <!--jquery.magnific-popup.min.js-->
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+
+        <!-- Main script js -->
+		<script src="assets/js/custom.js"></script>
+
+	</body>
 </html>
